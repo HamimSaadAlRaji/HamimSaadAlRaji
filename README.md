@@ -17,9 +17,27 @@
 
 I'm a Software Engineering graduate from **IUT** working where AI meets real product engineering: RAG pipelines, multimodal apps, and voice agents. I care just as much about the part nobody demos, the typed, tested backend that keeps those models fast and reliable.
 
-My research on lung-cancer CT classification was accepted at **IEEE QPAIN 2026**. I'm currently open to **AI/GenAI Engineer** and **ML Engineer** roles.
+I'm currently open to **AI/GenAI Engineer** and **ML Engineer** roles.
 
 <br>
+
+### ◇ &nbsp;Research
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/paper-dark.svg">
+  <img src="assets/paper-light.svg" width="100%" alt="Evaluating CoAtNet for Multiclass Lung Cancer Classification on CT Images: a benchmark study on the IQ-OTH/NCCD dataset. Accepted at IEEE QPAIN 2026.">
+</picture>
+
+<br><br>
+
+### ◇ &nbsp;Recognition
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/recognition-dark.svg">
+  <img src="assets/recognition-light.svg" width="100%" alt="Top 10 at CodeRush 2.0 Hackathon (May 2025), Finalist at Bangladesh Blockchain Olympiad among 200+ teams (Aug 2025), 2nd place at Techathon Nationals and Rover Summit (Jul 2026), national Runners-up at Bangladesh Blockchain Olympiad (Sep 2026).">
+</picture>
+
+<br><br>
 
 ### ◇ &nbsp;Selected work
 
@@ -38,21 +56,6 @@ My research on lung-cancer CT classification was accepted at **IEEE QPAIN 2026**
 
 **Full Stack Developer Intern** · Trust Innovation Limited <sub>(ICT company of the Bangladesh Army)</sub> · *Oct 2025 – Feb 2026*
 Led development of TIL-EMS, an education management system handling 10,000+ student records. Built a double-entry accounting system with a cron-driven monthly fee engine, and broke a 2,300-line monolith into clean modules.
-
-<br>
-
-### ◇ &nbsp;Research
-
-**Evaluating CoAtNet for Multiclass Lung Cancer Classification on CT Images** · IEEE QPAIN 2026 *(accepted)*
-Benchmarked a hybrid convolution–transformer against CNN and ViT baselines on the IQ-OTH/NCCD dataset.
-
-<br>
-
-### ◇ &nbsp;Recognition
-
-2nd place, **Techathon Nationals & Rover Summit 2026** (IUT Robotics Society)
-Finalist, **Bangladesh Blockchain Olympiad 2025**, out of 200+ teams
-Top 10, **CodeRush 2.0 Hackathon**, IUT (2025)
 
 <br>
 
