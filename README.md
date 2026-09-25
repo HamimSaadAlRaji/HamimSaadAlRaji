@@ -1,96 +1,71 @@
-```console
-$ ssh guest@hamim.dev
-Connection established. Welcome to Hamim's corner of GitHub.
+<div align="center">
 
-hamim@github:~$ whoami
-Hamim Saad Al Raji
-AI / GenAI Engineer  ·  Full-stack Developer  ·  Dhaka, Bangladesh
-B.Sc. Software Engineering, Islamic University of Technology (IUT)
+# Hamim Saad Al Raji
 
-hamim@github:~$ cat mission.txt
-I turn language models into products people can actually use,
-and I write the reliable, typed backend that keeps them running.
+**AI / GenAI Engineer** &nbsp;·&nbsp; Full-stack Developer &nbsp;·&nbsp; Dhaka, Bangladesh
 
-hamim@github:~$ cat status
-[ open ]  AI/GenAI Engineer · ML Engineer roles
-```
+*Turning language models into products people actually use.*
 
-```console
-hamim@github:~$ ls -l ~/projects
-drwxr-xr-x  ai-interviewer/    voice mock-interviews · judged by an LLM-as-a-Judge
-drwxr-xr-x  campus-haat/       campus marketplace · Gemini Vision writes the listings
-drwxr-xr-x  youtube-buddy/     chrome extension · RAG over any video's transcript
-drwxr-xr-x  marketpulse/       DistilBERT financial sentiment · FastAPI + Docker
-drwxr-xr-x  robotic-arm-sim/   6-DOF arm in the browser · IK + voice control
-drwxr-xr-x  nijerjomi/         blockchain land registry for Bangladesh
-```
+[Portfolio](https://hamimsaadalraji.vercel.app/) &nbsp;/&nbsp;
+[LinkedIn](https://linkedin.com/in/hamim-saad-al-raji/) &nbsp;/&nbsp;
+[Email](mailto:hamimsaad.raji@gmail.com) &nbsp;/&nbsp;
+[YouTube](https://www.youtube.com/@HowICompletedEngineering)
 
-<sub>
-→ <a href="https://ai-interviewer-eight-wheat.vercel.app/">ai-interviewer</a> ·
-<a href="https://campus-haat.vercel.app/">campus-haat</a> ·
-<a href="https://www.youtube.com/watch?v=v7lxI67N0-w">youtube-buddy</a> ·
-<a href="https://huggingface.co/HamimSaad/distilbert-fin-sentiment">marketpulse</a> ·
-<a href="https://techa-thon-final.vercel.app/">robotic-arm-sim</a> ·
-<a href="https://github.com/HamimSaadAlRaji/NijerJomi">nijerjomi</a>
-</sub>
+</div>
 
-```console
-hamim@github:~$ python -m marketpulse.eval --compare baseline
-model                  weighted_f1   macro_f1   latency
-tfidf + logreg         0.7636        0.7393     -
-distilbert (mine)      0.8475        0.8385     14.86 ms/req
-✔ transformer earned its extra cost
-```
+<br>
 
-```console
-hamim@github:~$ cat experience.log
-[2025-10 → 2026-02]  Full Stack Developer Intern @ Trust Innovation Limited
-                     (ICT company of the Bangladesh Army)
-                     ├─ led TIL-EMS · 10,000+ student records
-                     ├─ double-entry accounting + cron-driven fee engine
-                     └─ refactored a 2,300-line monolith into modules
-```
+I'm a Software Engineering graduate from **IUT** working where AI meets real product engineering: RAG pipelines, multimodal apps, and voice agents. I care just as much about the part nobody demos, the typed, tested backend that keeps those models fast and reliable.
 
-```console
-hamim@github:~$ cat research/qpain-2026.bib
-@inproceedings{raji2026coatnet,
-  title     = {Evaluating CoAtNet for Multiclass Lung Cancer Classification
-               on CT Images: A Benchmark Study on the IQ-OTH/NCCD Dataset},
-  booktitle = {IEEE QPAIN 2026},
-  note      = {Accepted}
-}
-```
+My research on lung-cancer CT classification was accepted at **IEEE QPAIN 2026**. I'm currently open to **AI/GenAI Engineer** and **ML Engineer** roles.
 
-```console
-hamim@github:~$ git log --oneline --author=hamim --grep="award"
-a3f9c21  (2026-07)  2nd place · Techathon Nationals & Rover Summit
-7be2d04  (2025-08)  finalist  · Bangladesh Blockchain Olympiad (200+ teams)
-e14c88a  (2025-05)  top 10    · CodeRush 2.0 Hackathon, IUT
-```
+<br>
 
-```yaml
-# hamim@github:~$ cat stack.yml
-ai:        [LangChain, RAG, Embeddings, Vector Search, Gemini, Groq, VAPI, MCP]
-ml:        [PyTorch, Transformers, scikit-learn, NumPy, Pandas, Computer Vision]
-languages: [Python, TypeScript, JavaScript, SQL, Java, C++, C#, C]
-web:       [React, Next.js, Node.js, Express, Prisma, FastAPI, Tailwind]
-infra:     [Docker, Azure, Vercel, Linux, PostgreSQL, MongoDB, Firebase, Git]
-```
+### ◇ &nbsp;Selected work
 
-```console
-hamim@github:~$ ping hamim
-PING hamim: reachable on the channels below ↓
-```
+| Project | What it does | Built with |
+|:--|:--|:--|
+| **[AI Interviewer](https://ai-interviewer-eight-wheat.vercel.app/)** <br><sub>[demo](https://youtu.be/NPTAzTttpvM)</sub> | Voice mock-interviews with adaptive, LLM-generated questions, scored by an LLM-as-a-Judge | Next.js · VAPI · Gemini · Firebase |
+| **[Campus Haat](https://campus-haat.vercel.app/)** <br><sub>[code](https://github.com/HamimSaadAlRaji/Coderush-Hackathon)</sub> | University marketplace where Gemini Vision writes listings from photos, with English & Bangla voice input and geofenced meetup maps | Next.js · MongoDB · Groq · Docker |
+| **YouTube-Buddy** <br><sub>[demo](https://www.youtube.com/watch?v=v7lxI67N0-w)</sub> | Chrome extension that lets you ask questions about any YouTube video, using RAG over its transcript | LangChain · Gemini · Python · Azure |
+| **[MarketPulse](https://huggingface.co/HamimSaad/distilbert-fin-sentiment)** | Fine-tuned DistilBERT for financial sentiment (0.85 weighted F1 vs 0.76 baseline), served as a tested API | PyTorch · Transformers · FastAPI · Docker |
+| **[Robotic Arm Sim](https://techa-thon-final.vercel.app/)** | 6-DOF industrial arm in the browser with inverse kinematics and keyboard, joystick, voice & natural-language control | JavaScript · Gemini |
+| **[NijerJomi](https://github.com/HamimSaadAlRaji/NijerJomi)** | Tamper-proof, blockchain-based land registry designed for Bangladesh | React · TypeScript · Tailwind |
 
-<sub>
-→ <a href="https://hamimsaadalraji.vercel.app/">portfolio</a> ·
-<a href="https://linkedin.com/in/hamim-saad-al-raji/">linkedin</a> ·
-<a href="mailto:hamimsaad.raji@gmail.com">email</a> ·
-<a href="https://www.youtube.com/@HowICompletedEngineering">youtube</a>
-</sub>
+<br>
 
-```console
-hamim@github:~$ exit
-logout: thanks for stopping by.
-█
-```
+### ◇ &nbsp;Experience
+
+**Full Stack Developer Intern** · Trust Innovation Limited <sub>(ICT company of the Bangladesh Army)</sub> · *Oct 2025 – Feb 2026*
+Led development of TIL-EMS, an education management system handling 10,000+ student records. Built a double-entry accounting system with a cron-driven monthly fee engine, and broke a 2,300-line monolith into clean modules.
+
+<br>
+
+### ◇ &nbsp;Research
+
+**Evaluating CoAtNet for Multiclass Lung Cancer Classification on CT Images** · IEEE QPAIN 2026 *(accepted)*
+Benchmarked a hybrid convolution–transformer against CNN and ViT baselines on the IQ-OTH/NCCD dataset.
+
+<br>
+
+### ◇ &nbsp;Recognition
+
+2nd place, **Techathon Nationals & Rover Summit 2026** (IUT Robotics Society)
+Finalist, **Bangladesh Blockchain Olympiad 2025**, out of 200+ teams
+Top 10, **CodeRush 2.0 Hackathon**, IUT (2025)
+
+<br>
+
+### ◇ &nbsp;Toolbox
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,express,prisma,fastapi,pytorch,sklearn,docker,azure,vercel,firebase,mongodb,postgres,linux,git&perline=10" alt="Tech stack" />
+</p>
+
+**AI layer:** LangChain · RAG · Embeddings & Vector Search · Gemini / Groq · VAPI · MCP · LLM-as-a-Judge
+
+<br>
+
+<div align="center">
+<sub>Build it. Measure it honestly. Ship it.</sub>
+</div>
